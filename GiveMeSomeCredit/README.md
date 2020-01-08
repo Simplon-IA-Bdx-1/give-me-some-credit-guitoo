@@ -51,4 +51,22 @@ $ ./notebook.sh start
 
 ## Project
 
-[01-Dataset%20Analysis](01-Dataset%20Analysis.ipynb)
+[01-Dataset Analysis.ipynb](01-Dataset%20Analysis.ipynb)
+
+[02-Dataset Preprocessing.ipynb](02-Dataset%20Preprocessing.ipynb)
+
+[03-Training.ipynb](03-Training.ipynb)
+
+[04-Model Evaluation.ipynb](04-Model%20Evaluation.ipynb)
+
+[05-Submission to Kaggle.ipynb](05-Submission%20to%20Kaggle.ipynb)
+
+[Auc Error plot.ipynb](Auc%20Error%20plot.ipynb)
+
+[Learning Curves.ipynb](Learning%20Curves.ipynb)
+
+[training-XGBoost.ipynb](training-XGBoost.ipynb)
+
+[ensemble-vs-deep.ipynb](ensemble-vs-deep.ipynb)
+
+[Single Prediction.ipynb](Single%20Prediction.ipynb)
