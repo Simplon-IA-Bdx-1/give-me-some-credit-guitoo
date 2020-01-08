@@ -1,6 +1,6 @@
-FROM ageron/handson-ml2
+FROM ageron/handson-ml2:2019.11
 USER root
-COPY ../requirements.txt /tmp/
+COPY ./requirements.txt /tmp/
 RUN pip install -r /tmp/requirements.txt
 RUN jupyter contrib nbextension install
 RUN jupyter nbextensions_configurator enable
