@@ -2,10 +2,17 @@
 
 cd docker
 HTTPPAGEFILE=./.notebookhttp
-BROWSER=chromium
-#BROWSER=start #Uncomment this line if you're using Windows
-#BROWSER=xdg-open #Uncomment this line if you're using Linux
 
+
+if [[ "$OSTYPE" == "linux-gnu" ]]; then    
+    BROWSER=xdg-open
+elif [[ "$OSTYPE" == "darwin"* ]]; then
+    BROWSER=open
+else
+    BROWSER=start
+fi
+
+# BROWSER=chromium # you can overwrite the default browser
 
 case "$1" in
     up)
